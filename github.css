@@ -42,6 +42,6 @@
   font-style: normal;
 }
 
-.blob-code {
+.highlight pre, .highlight .blob-code {
   font-family: 'Fira Code' !important;
 }
