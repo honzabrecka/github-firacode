@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "chrome-beautify",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["github.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["activeTab"]
+}
