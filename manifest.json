@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "github-firacode",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "content_scripts": [
     {
       "matches": [
