@@ -42,6 +42,12 @@
   font-style: normal;
 }
 
+/* github */
 .highlight pre, .highlight .blob-code-inner {
+  font-family: 'Fira Code' !important;
+}
+
+/* bitbucket */
+pre.source, .highlight pre {
   font-family: 'Fira Code' !important;
 }
