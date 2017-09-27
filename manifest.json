@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "chrome-beautify",
-  "version": "1.0",
+  "name": "github-firacode",
+  "version": "0.1.0",
   "content_scripts": [
     {
       "matches": [
@@ -12,5 +12,9 @@
       "run_at": "document_end"
     }
   ],
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab"],
+  "description": "A chrome extension that brings FiraCode font to github's code blocks.",
+  "icons": {
+    "128": "images/icon128.png"
+  }
 }
