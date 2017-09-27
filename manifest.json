@@ -12,6 +12,13 @@
       "run_at": "document_end"
     }
   ],
+  "web_accessible_resources": [
+    "FiraCode/*.eot",
+    "FiraCode/*.eot",
+    "FiraCode/*.woff2",
+    "FiraCode/*.woff",
+    "FiraCode/*.ttf"
+  ],
   "permissions": ["activeTab"],
   "description": "A chrome extension that brings FiraCode font to github's code blocks.",
   "icons": {
