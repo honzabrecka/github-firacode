@@ -7,7 +7,8 @@
       "matches": [
         "https://github.com/*",
         "https://gist.github.com/*",
-        "https://bitbucket.org/*"
+        "https://bitbucket.org/*",
+        "http://tfs.actum.local/*"
       ],
       "css": ["github.css"],
       "run_at": "document_end"

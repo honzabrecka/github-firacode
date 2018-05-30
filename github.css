@@ -51,3 +51,9 @@
 pre.source, .highlight pre {
   font-family: 'Fira Code' !important;
 }
+
+/* microsoft tfs */
+.vc-diff-viewer .text-diff-container, div.view-lines {
+  font-family: 'Fira Code' !important;
+  font-feature-settings: "liga" 1 !important;
+}
