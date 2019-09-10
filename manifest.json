@@ -1,16 +1,15 @@
 {
   "manifest_version": 2,
   "name": "github-firacode",
-  "version": "1.206.0",
+  "version": "2.0.0",
   "content_scripts": [
     {
       "matches": [
         "https://github.com/*",
         "https://gist.github.com/*",
-        "https://bitbucket.org/*",
-        "http://tfs.actum.local/*"
+        "https://bitbucket.org/*"
       ],
-      "css": ["github.css"],
+      "css": ["fonts.css"],
       "run_at": "document_end"
     }
   ],
